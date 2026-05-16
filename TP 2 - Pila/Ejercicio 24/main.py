@@ -39,7 +39,7 @@ def procesar_mcu(pila_mcu: Stack):
     while pila_aux.size() > 0:
         pila_mcu.push(pila_aux.pop())
         
-    print("--- A. Posiciones de Rocket Raccoon y Groot ---")
+    print("--- Posiciones de Rocket Raccoon y Groot ---")
     if posicion_rocket != -1:
         print(f"Rocket Raccoon se encuentra en la posición: {posicion_rocket}")
     else:
@@ -51,7 +51,7 @@ def procesar_mcu(pila_mcu: Stack):
         print("Groot no se encuentra en la pila.")
     print()
     
-    print("--- B. Personajes con más de 5 películas ---")
+    print("--- Personajes con más de 5 películas ---")
     if mas_de_5_peliculas:
         for nombre, peliculas in mas_de_5_peliculas:
             print(f"- {nombre} participó en {peliculas} películas.")
@@ -59,14 +59,14 @@ def procesar_mcu(pila_mcu: Stack):
         print("No hay personajes que hayan participado en más de 5 películas.")
     print()
         
-    print("--- C. Películas de Viuda Negra ---")
+    print("--- Películas de Viuda Negra ---")
     if peliculas_viuda_negra > 0:
         print(f"La Viuda Negra (Black Widow) participó en {peliculas_viuda_negra} películas.")
     else:
         print("La Viuda Negra no se encuentra en la pila o participó en 0 películas.")
     print()
         
-    print("--- D. Personajes que empiezan con C, D y G ---")
+    print("--- Personajes que empiezan con C, D y G ---")
     if personajes_cdg:
         print("Personajes:")
         for nombre in personajes_cdg:
