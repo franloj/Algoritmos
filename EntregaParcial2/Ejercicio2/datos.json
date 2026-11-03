@@ -1,0 +1,41 @@
+{
+    "personajes": [
+        {"nombre": "Luke Skywalker", "episodios_totales": 6},
+        {"nombre": "Darth Vader", "episodios_totales": 6},
+        {"nombre": "Yoda", "episodios_totales": 6},
+        {"nombre": "Boba Fett", "episodios_totales": 3},
+        {"nombre": "C3PO", "episodios_totales": 9},
+        {"nombre": "Leia", "episodios_totales": 7},
+        {"nombre": "Rey", "episodios_totales": 3},
+        {"nombre": "Kylo Ren", "episodios_totales": 3},
+        {"nombre": "Chewbacca", "episodios_totales": 7},
+        {"nombre": "Han Solo", "episodios_totales": 5},
+        {"nombre": "R2D2", "episodios_totales": 9},
+        {"nombre": "BB8", "episodios_totales": 3}
+    ],
+    "relaciones": [
+        ["Luke Skywalker", "Darth Vader", 3],
+        ["Luke Skywalker", "Yoda", 3],
+        ["Luke Skywalker", "Leia", 4],
+        ["Luke Skywalker", "Han Solo", 4],
+        ["Luke Skywalker", "C3PO", 4],
+        ["Luke Skywalker", "R2D2", 5],
+        ["Darth Vader", "Yoda", 1],
+        ["Darth Vader", "Leia", 3],
+        ["Yoda", "C3PO", 3],
+        ["Yoda", "R2D2", 3],
+        ["Leia", "Han Solo", 4],
+        ["Leia", "C3PO", 6],
+        ["Leia", "R2D2", 6],
+        ["Leia", "Chewbacca", 5],
+        ["Han Solo", "Chewbacca", 5],
+        ["C3PO", "R2D2", 9],       
+        ["Rey", "Kylo Ren", 3],
+        ["Rey", "BB8", 3],
+        ["Rey", "Chewbacca", 2],
+        ["Chewbacca", "Han Solo", 5],
+        ["Chewbacca", "R2D2", 5],
+        ["Boba Fett", "Darth Vader", 2],
+        ["Boba Fett", "Han Solo", 2]
+    ]
+}
